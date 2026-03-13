@@ -1,8 +1,4 @@
-FROM node:18-alpine
-
-WORKDIR /app
-
-RUN npm install -g flowise
+FROM flowiseai/flowise:latest
 
 EXPOSE 3000
 
